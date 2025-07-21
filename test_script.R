@@ -1,8 +1,0 @@
-# install.packages("renv")
-renv::activate()
-# install.packages("pacman")
-library(pacman)
-p_install_gh("moodymudskipper/typed")
-p_load()
-renv::status()
-renv::snapshot()

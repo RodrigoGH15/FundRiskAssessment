@@ -1,0 +1,12 @@
+# install.packages("renv")
+renv::activate()
+renv::status()
+renv::snapshot()
+install.packages("yahoofinancer")
+renv::dependencies()
+install.packages("tidyverse")
+install.packages("writexl")
+library(tibble)
+library(writexl)
+library(yahoofinancer)
+
