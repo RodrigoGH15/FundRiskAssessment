@@ -1,4 +1,5 @@
 # install.packages("renv")
+# aprendiendo un poco de cómo usar renv. No pescar
 renv::activate()
 renv::status()
 renv::snapshot()
